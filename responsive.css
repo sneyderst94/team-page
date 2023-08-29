@@ -47,3 +47,25 @@
     margin-top: 10%;
   }
 }
+
+@media (max-width: 425px) {
+  .title {
+    font-size: 20px;
+  }
+  section {
+    width: 100%;
+  }
+  .card {
+    max-width: 185px;
+    max-height: 280px;
+    margin-top: 10%;
+  }
+  .card img {
+    max-width: 170px;
+    max-height: 250px;
+  }
+  .card_position {
+    margin-top: -66%;
+    margin-left: 3%;
+  }
+}
