@@ -1,0 +1,49 @@
+@media (max-width: 750px) {
+  header {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    align-items: flex-start;
+    padding-left: 5%;
+  }
+  .title {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .info {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 90%;
+  }
+  main {
+    margin-top: -10%;
+  }
+  section {
+    width: 100%;
+    display: flex;
+    gap: 6%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card {
+    max-width: 200px;
+    max-height: 300px;
+    margin-top: 10%;
+  }
+  .card img {
+    max-width: 180px;
+    max-height: 270px;
+  }
+  .padding_mobile {
+    padding-top: 10%;
+  }
+  .card_position {
+    margin-top: -62%;
+    margin-left: -1%;
+  }
+  .end_card {
+    margin-top: 10%;
+  }
+}

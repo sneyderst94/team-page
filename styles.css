@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.title {
+  margin-top: -5%;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "PT Serif", serif;
+}
+
+.info {
+  max-width: 400px;
+  font-family: "Poppins", sans-serif;
+}
+.info h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.info p {
+  font-size: 18px;
+  font-weight: 400;
+}
+main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+section {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5%;
+  margin-top: 50px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 2fr;
+  justify-content: left;
+  width: 264px;
+  height: 383px;
+}
+.middle {
+  margin-top: 5%;
+}
+.card_img {
+  width: 238px;
+  height: 347px;
+}
+.card_photo_name h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.card_position {
+  display: grid;
+  font-family: "PT Serif", serif;
+  font-size: 12px;
+  width: auto;
+  height: 16px;
+  rotate: 90deg;
+  margin-top: -53%;
+  margin-right: -92%;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 20px;
+}
+footer p {
+  color: #a9a9a9;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
