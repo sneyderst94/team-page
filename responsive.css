@@ -1,4 +1,4 @@
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   header {
     flex-direction: column;
     width: 100%;
@@ -70,7 +70,7 @@
   }
 }
 
-@media (width < 394px) {
+@media (max-width: 394px) {
   .card {
     max-width: 170px;
     max-height: 280px;
